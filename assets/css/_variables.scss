@@ -1,8 +1,21 @@
 //Colors
 
-$background-blue-first: hsla(205, 100%, 16%, 1);
-$background-blue-second: hsla(205, 46%, 37%, 1);
+$linear-gradient-blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
 $black: hsla(0, 0%, 0%, 0.85);
 $grey: hsla(223, 8%, 93%, 1);
 $mustard: hsla(40, 100%, 46%, 1);
 $white: hsla(0, 0%, 100%, 1);
+
+
+//Font
+
+$main-font: 'Poppins';
+
+
+body {
+    background-color: $grey;
+    font-family: $main-font;
+    font-size: 16px;
+    font-weight: 400;
+}
+
