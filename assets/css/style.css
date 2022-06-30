@@ -50,4 +50,70 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body {
+  background-color: hsl(223deg, 8%, 93%);
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.cabecalho {
+  background-color: hsl(0deg, 0%, 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.cabecalho__menu-hamburguer {
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/Menu.svg);
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container__imagem {
+  padding: 1em;
+}
+
+.lista-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 60vw;
+}
+
+.container__botao:checked ~ .lista-menu {
+  display: block;
+}
+
+.container__botao {
+  display: none;
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+  padding: 1em;
+  background-color: hsl(0deg, 0%, 100%);
+}
+
+.lista-menu__titulo {
+  color: hsl(40deg, 100%, 46%);
+  font-weight: 700;
+}
+
+.lista-menu__link {
+  background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }/*# sourceMappingURL=style.css.map */
