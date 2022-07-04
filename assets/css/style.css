@@ -250,4 +250,35 @@ body {
   color: hsl(0deg, 0%, 100%);
   font-weight: 700;
   text-decoration: none;
+}
+
+.topicos {
+  background: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+  text-align: center;
+  padding: 1em 0;
+}
+
+.topicos__titulo {
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 300;
+  margin-bottom: 1em;
+}
+
+.topicos__lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.topicos__item {
+  margin: 2em 0.5em;
+}
+
+.topicos__link {
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(40deg, 100%, 46%);
+  text-decoration: none;
+  padding: 1em;
+  font-size: 14px;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
