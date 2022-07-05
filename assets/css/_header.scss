@@ -12,6 +12,13 @@
     .container {
         display: flex;
         align-items: center;
+
+        .container__botao:checked~.container__rotulo {
+            background-color: $blue;
+            .cabecalho__menu-hamburguer {
+                background-image: url(../img/Menu\ Aberto.png);
+            }
+        }
     
         .cabecalho__menu-hamburguer {
             width: 24px;
@@ -22,7 +29,7 @@
             background-position: center;
         }
         .container__imagem {
-            padding: 0.5em;
+            padding: 1em;
         }
         
         .lista-menu {
@@ -59,6 +66,12 @@
         .container__titulo {
             display: none;
         }
+
+        .container__link {
+            .container__texto{
+                display: none;
+            }
+        }
        
         
     }
@@ -71,7 +84,7 @@
         .opcoes {
             display: flex;
             &__item {
-                padding: 0 1em;
+                padding: 2em 1em;
                 text-transform: uppercase;
                 .opcoes__link {
                     text-decoration: none;
@@ -87,6 +100,14 @@
                 .lista-menu__item{
                     padding: 1em;
                     background-color: $white;
+                }
+
+                .lista-menu__item:hover{
+                    background: $linear-gradient-blue;
+                    .lista-menu__link {
+                        -webkit-text-fill-color: $white;
+                        text-decoration: none;
+                    }
                 }
                 
                 .lista-menu__titulo {
@@ -106,6 +127,15 @@
             &__botao:checked~.lista-menu {
                 display: block;
                 width: auto;
+            }
+        }
+
+        .opcoes__botao:checked~.opcoes__rotulo {
+
+            .opcoes__item {
+                background: $linear-gradient-blue;
+                color: $white;
+
             }
         }
 
@@ -134,6 +164,29 @@
 
 
         
+        }
+    }
+    
+}
+
+@media screen and (min-width: 1728px) {
+    .cabecalho {
+        padding: 0 2em;
+
+        .opcoes {
+            margin-right: auto;
+        }
+
+        .container {
+            .container__link {
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                color: $black;
+                .container__texto{
+                    display: block;
+                }
+            }
         }
     }
     
