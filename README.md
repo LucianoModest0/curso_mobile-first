@@ -4,4 +4,4 @@
 
 > Using **SCSS**
 
-> Working on progress
+> [See the result here](https://lucianomodest0.github.io/curso_AluraBooks/)
