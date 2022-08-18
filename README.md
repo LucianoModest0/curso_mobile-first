@@ -12,4 +12,4 @@
 #### O Curso faz parte da formação HTML e CSS: Crie páginas incríveis com as tecnologias da Web em sua segunda parte, *Layouts modernos para a Web*
 
 
-O Resultado pode ser acessado > [Aqui](https://lucianomodest0.github.io/curso_AluraBooks/)
+O Resultado pode ser acessado > [Aqui](https://lucianomodest0.github.io/curso_mobile-first/)
